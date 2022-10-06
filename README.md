@@ -1,4 +1,4 @@
-# # Introduction to GitHub 
+# Introduction to GitHub 
 ## Table of content 
 1. What is Github?
 2. Why Github?
