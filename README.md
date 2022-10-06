@@ -89,12 +89,13 @@ The GitHub platform allows you make changes to your documents. The process of te
 
 7. After your pull request has been reviewed, it can be merged into repository. 
 
+ 
  ## Commit
- ![InShot_20221003_125114402](InShot_20221003_125114402.jpg)
+ ![Git commit](https://imgs.xkcd.com/comics/git_commit_2x.png)
  
   Image source: https://xkcd.com/1296/
   
-After making changes to a file, just like saving the edited file, a commit records the changes done to the files. A commit contains information such as the specific changes done, who created the changes, and when the changes were made. Every time you save the state of your project at any time, Git takes a snapshot of what your files look like at the moment and stores it as a reference. Commit shares the changes you've made to the local repository only. The changes are done locally, they are not automatically synchronized to the remote repository and so when you want to share them with other developers, you have to push them back to the repository which you all share. 
+After making changes to a file, just  like saving the edited file, a commit records the changes done to the files. A commit contains information such as the specific changes done, who created the changes, and when the changes were made. Every time you save the state of your project at any time, Git takes a snapshot of what your files look like at the moment and stores it as a reference. Commit shares the changes you've made to the local repository only. The changes are done locally, they are not automatically synchronized to the remote repository and so when you want to share them with other developers, you have to push them back to the repository which you all share. 
 - To write a Git Commit, you start by typing "git commit" on your terminal or command prompt which brings up a Vim interface for entering the commit message. 
 - On the first line, type the subject of your commit. Remember to keep it short. Next you write a detailed description of the committed change. Use multiple paragraphs to give a detailed explanation. Your commit message should answer three primary questions;
 - - why is this change important?
