@@ -42,9 +42,9 @@ If your project is open source,  GitHub makes it simpler to add more in-depth do
 
 ## Git vs. GitHub
 
-![branching-illustration@2x](branching-illustration@2x.png)
+![GitHub](https://res.cloudinary.com/ithouse/images/w_778,h_502/f_auto,q_auto/v1510571155/branching-illustration_2x_eppcl8/branching-illustration_2x_eppcl8.png?_i=AA)
 
-Image from branching-illustration@2x.png.
+Image from https://ithouse.io/about-us/branching-illustration2x/.
 
 According to Ekaterina Novoseltseva, GitHub can be divided into Git and the Hub; the "Git" implies the version control system,  a tool which allows developers to keep track of their constant revisions of their code, while the "hub" is the community of like-minded individuals who participate. Devmountain describes Git as a version control system that let's you manage and keep track of your source code history and GitHub is a cloud-based hosting service that let's you manage Git repositories. 
 
