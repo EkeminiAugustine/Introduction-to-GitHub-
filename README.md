@@ -3,7 +3,7 @@
 1. What is Github?
 2. Why Github?
 3. Git vs. Github
-4. Clone in GitHub
+4. Cloning in GitHub
 5. Pull request 
 6. Commit 
 7. Git Desktop vs. Git CLI
