@@ -25,7 +25,7 @@ Wikipedia describes it as an Internet hosting service for software developmen
 ## Why GitHub?
 The GitHub platform provides users with diverse benefits. Some of these benefits include:
 ### 1. Excellent documentation: 
-GitHub provides a good platform on which you can document your projects. With GitHub, you are able to record and track your progress. 
+GitHub provides a good platform on which you can document your projects. With GitHub, you can record and track your progress. 
 
 ### 2. Exhibit your work: 
 Most companies, when looking for recruits, look into GitHub profiles. GitHub provides you with a platform to showcase your work, thereby increasing your chances of being recruited.
@@ -46,17 +46,19 @@ If your project is open source,  GitHub makes it simpler to add more in-depth do
 
 Image from https://ithouse.io/about-us/branching-illustration2x/.
 
-According to Ekaterina Novoseltseva, GitHub can be divided into Git and the Hub; "Git" implies the version control system,  a tool which allows developers to keep track of their constant revisions of their code, while the "hub" is the community of like-minded individuals who participate. Devmountain describes Git as a version control system that lets you manage and keep track of your source code history and GitHub is a cloud-based hosting service that lets you manage Git repositories. 
+According to Ekaterina Novoseltseva, GitHub can be divided into Git and the Hub; "Git" implies the version control system,  a tool which allows developers to keep track of the constant revisions of their code, while the "hub" is the community of like-minded individuals who participate. 
 
-Git and GitHub complement each other and the difference between them is in how they function. Git can be thought of as a single computer system working alone, and GitHub as a connection of interconnected computer systems, performing different roles, but with the sole aim to achieve the same goal. GitHub is designed to help you manage open-source projects that use Git. GitHub simply expands things further than Git. GitHub offers connectivity,  expandability, and resources, as well as a place to deposit and collaborate on projects. GitHub is a web-based Git repository. This hosting service has cloud-based storage. 
+Git and GitHub complement each other and the difference between them is in how they function. Git can be thought of as a single computer system working alone, and GitHub as a connection of interconnected computer systems, performing different roles, but with the sole aim to achieve the same goal. GitHub is designed to help you manage open-source projects that use Git. GitHub simply expands things further than Git. Some of the differences between Git and GitHub can be summarized as follows:
 
-GitHub offers distributed version control and source code management functionality of Git while adding its features. It makes it easier to collaborate. Some of the differences between Git and GitHub can be summarized as follows:
+|Git | GitHub|
+|------|-----------|
+|Git is a command line tool, focused on code sharing and version control | GitHub is a graphical user interface, focused on centralised source code hosting|
+|It has no management feature, with minimal external tool configuration| It has in-built user management features, with an active market space|
+|It is a software, installed locally on the system | It is a service, hosted on the web|
+|It is a version control system that lets you manage and keep track of your source code history | It is a cloud-based hosting service that lets you manage Git repositories |
+|The operations of Git are limited | GitHub offers connectivity,  expandability, and resources, as well as a place to deposit and collaborate on projects |
 
-- Git is a software, installed locally on the system while GitHub is a service hosted on the web.
 
-- Git has no user management feature, with minimal external tool configuration while GitHub has in-built user management features, with an active market space for tool integration. 
-
-- Git is a command line tool, focused on code sharing and version control, while GitHub is a graphical user interface focused on centralized source code hosting.
 
 ## Cloning in GitHub
 Cloning in GitHub implies making a copy of a repository, to duplicate and copy everything in the repository. Cloning is done to make changes, edit a repository or fix emerging conflicts in a repository. Cloning can be done to files you have access to by following the steps below :
@@ -73,7 +75,7 @@ If you clone a repository that you do not have write access to, GitHub Desktop w
 
 
  ## Pull request
-The GitHub platform allows you to make changes to your documents. The process of telling people about the changes you've made to a project in order to review the changes with your collaborators is described as a pull request. Pull request creates an avenue for changes to be discussed and reviewed before they are merged up into the base branch.  The pull request simply displays differences to compare the changes to be merged into the main work. To carry out a pull request, the following steps can be followed: 
+The GitHub platform allows you to make changes to your documents. The process of telling people about the changes you've made to a project, to review the changes with your collaborators is described as a pull request. Pull request creates an avenue for changes to be discussed and reviewed before they are merged up into the base branch.  The pull request simply displays differences to compare the changes to be merged into the main work. To carry out a pull request, the following steps can be followed: 
 
 1. On GitHub.com, navigate to the main page of the repository.
 
@@ -128,5 +130,6 @@ The GitHub CLI is recommended for use as it saves more time and provides speed. 
 
 ## Conclusion
 GitHub has become one of the largest coding communities, providing a wide range of benefits. GitHub can integrate with platforms and services such as Google Cloud, Amazon, and Code Climate to track your projects and changes, and can highlight syntax in several programming languages. 
-If you are working on an exciting project, GitHub is the platform to be.
+If you are working on an exciting project, GitHub is the platform to.
+
 
