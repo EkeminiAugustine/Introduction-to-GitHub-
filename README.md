@@ -11,7 +11,7 @@
 
 ## Introduction 
 If you are in the software industry, then most likely you have heard about GitHub.  GitHub is a platform that provides code hosting services. You may use it as cloud storage for your projects, or you may use it to show your code to potential employers interested in assessing your skills. GitHub is more than simple storage, hence it is important to ask “What is GitHub?”
- In this writing, you will learn about GitHub essentials like repositories, clones, pull requests, and commits. In this guide, you will:
+ In this guide, you will:
 - know what GitHub is about
 - know why you should use GitHub
 - learn the differences between Git and GitHub; GitHub Desktop and GitHub CLI
