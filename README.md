@@ -63,11 +63,13 @@ Git and GitHub complement each other and the difference between them is in how t
 ## Cloning in GitHub
 Cloning in GitHub implies making a copy of a repository, to duplicate and copy everything in the repository. Cloning is done to make changes, edit a repository or fix emerging conflicts in a repository. Cloning can be done to files you have access to by following the steps below :
 
-1. In the File menu, click **Clone Repository**.
-
-2. Click the tab that corresponds to the location of the repository you want to clone. You can also click URL to manually enter the repository location.
-
-3. Choose the repository you want to clone from the list. Click **choose** and navigate to a local path where you want to clone the repository and click **clone**.
+1. Open your GitHub account
+2. Select the repository you want to clone
+3. Click on the repository to show the file options and click on **code** as shown below.
+4. Click on **SSH** and copy the URL as shown below.
+5. Select the location where you want the cloned repository to be
+6. Type **Git clone** and the paste the URL you copied earlier
+7. Press **enter** to create the cloned repository.
 
 If you clone a repository that you do not have write access to, GitHub Desktop will create a fork. After creating or cloning a fork, GitHub Desktop will ask how you are planning to use the fork.
 - If you plan to use this fork for contributing to the original upstream repository, click  **To contribute to the parent project**. And then click **Continue**.
@@ -81,13 +83,13 @@ The GitHub platform allows you to make changes to your documents. The process of
 
 2. In the **Branch** menu, choose the branch that contains your commits.
 
-3.  Above the list of files click on **pull request**.
+3.  Above the list of files click on **pull request** as shown below.
 
 4. Use the base branch dropdown menu to select the branch you'd like to merge your changes into, then use the compare branch drop-down menu to choose the topic branch you made your changes in.
 
-5. Type a title and description for your pull request.
+5. Type a title and description for your pull request as shown below
 
-6. To create a pull request that is ready for review, click **create pull request**.  To create a draft pull request, use the drop-down and select "create pull request" and then pick **draft pull request**.
+6. To create a pull request that is ready for review, click **create pull request**.  To create a draft pull request, use the drop-down and select **create pull request** and then pick **draft pull request** as shown below
 
 7. After your pull request has been reviewed, it can be merged into the repository. 
 
@@ -97,7 +99,7 @@ The GitHub platform allows you to make changes to your documents. The process of
   Image source: https://xkcd.com/1296/
   
 After making changes to a file, just like saving the edited file, a commit records the changes done to the files. A commit contains information such as the specific changes done, who created the changes, and when the changes were made. Every time you save the state of your project at any time, Git takes a snapshot of what your files look like at the moment and stores it as a reference. Commit shares the changes you've made to the local repository only. The changes are done locally, they are not automatically synchronized to the remote repository and so when you want to share them with other developers, you have to push them back to the repository that you all share. 
-- To write a Git Commit, you start by typing **git commit** on your terminal or command prompt which brings up a Vim interface for entering the commit message. 
+- To make a Git Commit, you start by typing **git commit** on your terminal or command prompt which brings up a Vim interface for entering the commit message as shown below
 - On the first line, type the subject of your commit. Remember to keep it short. Next, you write a detailed description of the committed change. Use multiple paragraphs to give a detailed explanation. Your commit message should answer three primary questions;
 - - why is this change important?
 - - what effect do the changes have?
