@@ -63,11 +63,11 @@ Git and GitHub complement each other and the difference between them is in how t
 ## Cloning in GitHub
 Cloning in GitHub implies making a copy of a repository, to duplicate and copy everything in the repository. Cloning is done to make changes, edit a repository or fix emerging conflicts in a repository. Cloning can be done to files you have access to by following the steps below :
 
-1. In the File menu, click **Clone Repository**.
+1. In the File menu, click **Clone Repository**. ![see details](images/see%20details.jpeg)
 
 2. Click the tab that corresponds to the location of the repository you want to clone. You can also click URL to manually enter the repository location.
 
-3. Choose the repository you want to clone from the list. Click **choose** and navigate to a local path where you want to clone the repository and click **clone**.
+3. Choose the repository you want to clone from the list. Click **choose** and navigate to a local path where you want to clone the repository and click **clone**.![clone](images/clone.jpeg)
 
 If you clone a repository that you do not have write access to, GitHub Desktop will create a fork. After creating or cloning a fork, GitHub Desktop will ask how you are planning to use the fork.
 - If you plan to use this fork for contributing to the original upstream repository, click  **To contribute to the parent project**. And then click **Continue**.
@@ -79,22 +79,20 @@ The GitHub platform allows you to make changes to your documents. The process of
 
 1. On GitHub.com, navigate to the main page of the repository.
 
-2. In the **Branch** menu, choose the branch that contains your commits.
+2. In the **Branch** menu, choose the branch that contains your commits.![fork](images/start%20fork.jpeg)
 
 3.  Above the list of files click on **pull request**.
 
-4. Use the base branch dropdown menu to select the branch you'd like to merge your changes into, then use the compare branch drop-down menu to choose the topic branch you made your changes in.
+4. Use the base branch dropdown menu to select the branch you'd like to merge your changes into, then use the compare branch drop-down menu to choose the topic branch you made your changes in.![fork](images/complete%20fork.jpeg)
 
 5. Type a title and description for your pull request.
-
+![fork clone](images/clone%20fork.jpeg)
 6. To create a pull request that is ready for review, click **create pull request**.  To create a draft pull request, use the drop-down and select "create pull request" and then pick **draft pull request**.
-
+![pull](images/start%20pull.jpeg)
 7. After your pull request has been reviewed, it can be merged into the repository. 
-
+![pull](images/pull%20complete.jpeg)
  ## Commit
- ![Git commit](https://imgs.xkcd.com/comics/git_commit_2x.png)
- 
-  Image source: https://xkcd.com/1296/
+ ![commit](images/commit.jpg)
   
 After making changes to a file, just like saving the edited file, a commit records the changes done to the files. A commit contains information such as the specific changes done, who created the changes, and when the changes were made. Every time you save the state of your project at any time, Git takes a snapshot of what your files look like at the moment and stores it as a reference. Commit shares the changes you've made to the local repository only. The changes are done locally, they are not automatically synchronized to the remote repository and so when you want to share them with other developers, you have to push them back to the repository that you all share. 
 - To write a Git Commit, you start by typing **git commit** on your terminal or command prompt which brings up a Vim interface for entering the commit message. 
