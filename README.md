@@ -114,7 +114,7 @@ The GitHub CLI is recommended for use as it saves more time and provides speed. 
 
 - By using Git from the command line, it gives a better understanding of how Git functions. 
 
-- It is fast and straightforward. 
+- It is fast and straightforward.
 
 - It gives you full control over what is happening. 
 
