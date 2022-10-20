@@ -71,27 +71,23 @@ Cloning in GitHub implies making a copy of a repository, to duplicate and copy e
 6. Type **Git clone** and the paste the URL you copied earlier
 7. Press **enter** to create the cloned repository.
 
-If you clone a repository that you do not have write access to, GitHub Desktop will create a fork. After creating or cloning a fork, GitHub Desktop will ask how you are planning to use the fork.
-- If you plan to use this fork for contributing to the original upstream repository, click  **To contribute to the parent project**. And then click **Continue**.
-- If you plan to use this fork for a project not connected to the upstream, click **For my own purpose**, then you click **continue**. 
-
 
  ## Pull request
 The GitHub platform allows you to make changes to your documents. The process of telling people about the changes you've made to a project, to review the changes with your collaborators is described as a pull request. Pull request creates an avenue for changes to be discussed and reviewed before they are merged up into the base branch.  The pull request simply displays differences to compare the changes to be merged into the main work. To carry out a pull request, the following steps can be followed: 
 
-1. On GitHub.com, navigate to the main page of the repository. ![pull](images/start%20fork.jpeg)
+1.  On GitHub.com, navigate to the main page of the repository you want to make changes to, click on **watch** and then select **create a new fork** as shown below. ![pull](images/start%20fork.jpeg)
 
-2. In the **Branch** menu, choose the branch that contains your commits.
+2. Next, you create a branch you want your changes to be and click on **create fork**.
+ ![pull](images/complete%20fork.jpeg)
 
-3.  Above the list of files click on **pull request** as shown below. ![pull](images/complete%20fork.jpeg)
+3. Next, you clone the forked repository. Cloning the forked repository makes it easy to push back the repository after changes have been made. After cloning, you make your desired changes to the repository.
 
-4. Use the base branch dropdown menu to select the branch you'd like to merge your changes into, then use the compare branch drop-down menu to choose the topic branch you made your changes in. ![pull](images/start%20pull.jpeg)
+4. After making changes to the file, Click on **compare and pull request**.This action helps to compare the new branch that you created, worked on and pushed with the original branch from the repository that you forked. ![pull](images/start%20pull.jpeg)
 ![clone fork](images/clone%20fork.jpeg)
-5. Type a title and description for your pull request as shown below ![pull](images/pull%20complete.jpeg)
 
-6. To create a pull request that is ready for review, click **create pull request**.  To create a draft pull request, use the drop-down and select **create pull request** and then pick **draft pull request** as shown below
+5. To create a pull request that is ready for review, type a title and description for your pull request and click **create pull request**. ![pull](images/pull%20complete.jpeg)
 
-7. After your pull request has been reviewed, it can be merged into the repository. 
+6. After your pull request has been reviewed, it can be merged into the repository. 
 
  ## Commit
  ![commit](images/commit.jpg)
@@ -103,7 +99,7 @@ After making changes to a file, just like saving the edited file, a commit recor
 - - what effect do the changes have?
 - - how does this commit address the issue?
 
-- Then you click on **Commit changes**, or you press **Esc** and then type **:wq**. 
+- Then you click on **Commit changes**.
 
 Commit messages makes it easier to understand why a change was made. And also, in the long run, would make it easier for further changes to be made to a project because they understand the code.
 
