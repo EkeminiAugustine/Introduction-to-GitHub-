@@ -83,7 +83,6 @@ The GitHub platform allows you to make changes to your documents. The process of
 3. Next, you clone the forked repository. Cloning the forked repository makes it easy to push back the repository after changes have been made. After cloning, you make your desired changes to the repository.
 
 4. After making changes to the file, Click on **compare and pull request**.This action helps to compare the new branch that you created, worked on and pushed with the original branch from the repository that you forked. ![pull](images/start%20pull.jpeg)
-![clone fork](images/clone%20fork.jpeg)
 
 5. To create a pull request that is ready for review, type a title and description for your pull request and click **create pull request**. ![pull](images/pull%20complete.jpeg)
 
