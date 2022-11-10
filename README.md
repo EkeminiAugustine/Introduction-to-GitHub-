@@ -104,24 +104,14 @@ Commit messages makes it easier to understand why a change was made. And also, i
 
 ## GitHub Desktop vs. GitHub CLI
 GitHub Desktop is an application that enables you to interact with GitHub using a GUI (Graphical User Interface ). GUI according to Wikipedia, is a form of user interface that allows users to interact with electronic devices through graphical icons instead of text.
-GitHub CLI (Command Line Interface) is a command tool that allows GitHub features and actions to be accessible to your terminal, so you can complete all your actions in one place.
-The GitHub CLI is recommended for use as it saves more time and provides speed. The Slant Community gives the following advantages of the Command Line Interface over the GitHub Desktop:
-
-- Using CLI gives access to every single git function.
-
-- By using Git from the command line, it gives a better understanding of how Git functions. 
-
-- It is fast and straightforward. 
-
-- It gives you full control over what is happening. 
-
-- You can customize it and/or integrate it into automated workflows.
-
-- It is simple to use.
-
--  With Git CLI, a visual representation of various branches and how they are merged is possible. 
-
-- It is the same on every platform. 
+GitHub CLI (Command Line Interface) is a command tool that allows GitHub features and actions to be accessible to your terminal, so you can complete all your actions in one place. The Slant Community gives the following advantages of the Command Line Interface over the GitHub Desktop:
+|GitHub CLI|GitHub Desktop|
+|----------|--------------|
+|It gives you access to every single git function| It's functions are limited|
+|It gives you a better understanding of how git functions| It could be complicated to understand|
+|It is flexible,You can customize it and/or integrate it into automated workflows| It is not as flexible as CLI|
+|It is the same on every platform | It differs on different platforms|
+|It saves more time and provides speed| It's speed is not as fast as in CLI|
 
 ## Conclusion
 GitHub has become one of the largest coding communities, providing a wide range of benefits. GitHub can integrate with platforms and services such as Google Cloud, Amazon, and Code Climate to track your projects and changes, and can highlight syntax in several programming languages. 
