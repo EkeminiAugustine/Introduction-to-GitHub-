@@ -92,13 +92,8 @@ The GitHub platform allows you to make changes to your documents. The process of
  ![commit](images/commit.jpg)
   
 After making changes to a file, just like saving the edited file, a commit records the changes done to the files. A commit contains information such as the specific changes done, who created the changes, and when the changes were made. Every time you save the state of your project at any time, Git takes a snapshot of what your files look like at the moment and stores it as a reference. Commit shares the changes you've made to the local repository only. The changes are done locally, they are not automatically synchronized to the remote repository and so when you want to share them with other developers, you have to push them back to the repository that you all share. 
-- To make a Git Commit, you start by typing **git commit** on your terminal or command prompt which brings up a Vim interface for entering the commit message as shown below
-- On the first line, type the subject of your commit. Remember to keep it short. Next, you write a detailed description of the committed change. Use multiple paragraphs to give a detailed explanation. Your commit message should answer three primary questions;
-- - why is this change important?
-- - what effect do the changes have?
-- - how does this commit address the issue?
-
-- Then you click on **Commit changes**.
+- To make a Git Commit,use **git add <filename>** to select the file to include.
+- Then, you commit using **git commit-m"commit message"**. The hyphen with the m (-m) indicates that you're adding a message with the commit.
 
 Commit messages makes it easier to understand why a change was made. And also, in the long run, would make it easier for further changes to be made to a project because they understand the code.
 
